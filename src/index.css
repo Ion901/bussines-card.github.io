@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#root {
+    width: 367px;
+    margin: 10px auto;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    font-family: 'Inter';
+}
+
+.foto {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+.--container{
+    background-color: #1A1B21;
+}
+.details {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.details h1 {
+    padding-top:10px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.details p {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: rgb(165, 136, 42);
+}
+
+.details a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px;
+    
+}
+
+.buttons .--btn1, .--btn2 {
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    cursor: pointer;
+}
+.--btn2{
+    background-color: rgb(26, 187, 228);
+    color:white
+}
+
+.--about,.--interests{
+    padding: 15px 10px 30px 40px;
+    background-color: #1A1B21;
+}
+.--about p,.--interests p{
+    font-size: 10.24px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.--about h1,.--interests h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.--footer{
+display: flex;
+justify-content: space-evenly;
+font-size: 30px;
+padding: 20px;
+height:64px;
+background-color:  #161619;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
